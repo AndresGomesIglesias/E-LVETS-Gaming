@@ -1,0 +1,99 @@
+/*
+File Name: 		custom.css
+Description:  
+*/
+/* -------------------------- */
+/* HOME PAGE*/
+/* -------------------------- */
+.res-wrap{
+    white-space: normal;
+}
+.js_hover{
+  color: white;
+}
+.insta{
+    padding: 2px;
+    margin: 0px;
+}
+.containerinsta{
+    padding: 0px;
+}
+
+.custom_post{
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.custom_item{
+  height: 100%;
+}
+
+.post-grid--masonry{
+ position: relative;
+  height: auto;
+}
+
+.card-top{
+  height: 50%;
+}
+
+.card-center{
+  display: flex;
+  flex-direction: inherit;
+  height: 200px;
+}
+#Addstatic{
+  position:static;
+width: auto;
+}
+.imgTeams {
+  border-radius: 50%;
+}
+.imgResultAjustement{
+  max-width: 90px;
+    height: auto;
+}
+.label{
+  font-size: 11px;
+}
+/* -------------------------- */
+ /*BLOCKQUOTE*/
+ /* -------------------------- */
+.myblockquote {
+	color: #fff;
+  font-weight: 90; 
+  max-width: 100%;
+  line-height: 1.4;
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+}
+
+.myblockquote :before,
+.myblockquote :after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 4rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+.myblockquote :before {
+	content: '“';
+  left: -0.5rem;
+  bottom: 8rem;
+}
+
+.myblockquote :after {
+	content: '”';
+  right: -2rem;
+  bottom: 1rem;
+}
+
+
+/* -------------------------- */
+ /*Add Results*/
+ /* -------------------------- */
+ #result_match{
+   margin-left: 15px;
+ }

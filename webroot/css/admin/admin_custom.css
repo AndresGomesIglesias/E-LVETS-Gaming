@@ -1,0 +1,114 @@
+.displayNone{
+    display: none;
+}
+.imgTeams{
+    width: auto; 
+    height: 100%;
+    border-radius: 50%;
+}
+.fileupload-new{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+#result_match{
+    display: flex;
+    margin-left: 20px;
+}
+.result_score{
+    margin: 0px 20px 0px 20px;
+    /* align-self: center; */
+}
+#team, p{
+    margin-top: 0;
+    font-size: 11;
+}
+.playersHover:hover{
+    cursor: pointer;
+}
+.myblockquote {
+	font-weight: 100;
+	font-size: 0.8rem;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.myblockquote :before,
+.myblockquote :after {
+	position: absolute;
+	color: #f1efe6;
+}
+
+.myblockquote :before {
+	content: '“';
+	left: -1rem;
+	top: -1rem;
+}
+
+.myblockquote :after {
+	content: '”';
+	right: -1rem;
+	bottom: 1rem;
+}
+.img-header{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+p{
+    margin-bottom: 0px;
+}
+/* -------------------------- */
+/* PAGE CLUBS/ADMIN_ADD */
+/* -------------------------- */
+/* #sub{
+    margin-top: 20px;
+  } */
+
+  
+/* -------------------------- */
+/* PAGE USERS/ADDTEAM*/
+/* -------------------------- */
+#sub{
+    margin: 0px 0px 0px 0px;
+  }
+  #crose {
+    top: 20px;
+}
+
+.player_cart img {
+    height: 152px;
+    width: 115px;
+}
+#clearfix_name {
+    margin-bottom: 0px;
+}
+
+.modaleMainIn{
+    overflow: auto;
+    width: 600px;
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    padding: 20px;
+    animation: slideFromTop .3s both;
+    border: 1px solid black;
+    background: white;
+
+  }
+
+
+.modaleMainClass{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: fadeIn .3s both;
+  z-index: 1050;
+}

@@ -1,0 +1,306 @@
+.icon-svg {
+    font-size: 10px;
+    &:before {
+      content:' ';
+      vertical-align:middle;
+      display: inline-block;
+      background-image: url("../images/sprite.svg");
+      background-repeat: no-repeat;
+      background-size: 13em 51.2em;
+
+      .no-svg & {
+        background-image: url("../images/sprite.svg");
+      }
+    }
+}
+
+
+
+
+.icon-svg.icon-corner-flag {
+  &:before {
+      background-position: 0em 0em;
+      width: 1.5em;
+      height: 2em;
+    }
+  }
+
+  @mixin icon-svg-icon-corner-flag(){
+    @extend .icon-corner-flag;
+  }
+
+
+.icon-svg.icon-crosshair {
+  &:before {
+      background-position: 0em -2em;
+      width: 2.1em;
+      height: 2.1em;
+    }
+  }
+
+  @mixin icon-svg-icon-crosshair(){
+    @extend .icon-crosshair;
+  }
+
+
+.icon-svg.icon-in {
+  &:before {
+      background-position: 0em -4.1em;
+      width: 0.9em;
+      height: 1.2em;
+    }
+  }
+
+  @mixin icon-svg-icon-in(){
+    @extend .icon-in;
+  }
+
+
+.icon-svg.icon-injury {
+  &:before {
+      background-position: 0em -5.3em;
+      width: 1.6em;
+      height: 1.6em;
+    }
+  }
+
+  @mixin icon-svg-icon-injury(){
+    @extend .icon-injury;
+  }
+
+
+.icon-svg.icon-keepers-glove {
+  &:before {
+      background-position: 0em -6.9em;
+      width: 1.6em;
+      height: 2.2em;
+    }
+  }
+
+  @mixin icon-svg-icon-keepers-glove(){
+    @extend .icon-keepers-glove;
+  }
+
+
+.icon-svg.icon-offside-flag {
+  &:before {
+      background-position: 0em -9.1em;
+      width: 2.2em;
+      height: 1.8em;
+    }
+  }
+
+  @mixin icon-svg-icon-offside-flag(){
+    @extend .icon-offside-flag;
+  }
+
+
+.icon-svg.icon-out {
+  &:before {
+      background-position: 0em -10.9em;
+      width: 0.8em;
+      height: 1.1em;
+    }
+  }
+
+  @mixin icon-svg-icon-out(){
+    @extend .icon-out;
+  }
+
+
+.icon-svg.icon-red-card {
+  &:before {
+      background-position: 0em -12em;
+      width: 1.2em;
+      height: 1.6em;
+    }
+  }
+
+  @mixin icon-svg-icon-red-card(){
+    @extend .icon-red-card;
+  }
+
+
+.icon-svg.icon-shirt {
+  &:before {
+      background-position: 0em -13.6em;
+      width: 3.2em;
+      height: 3.2em;
+    }
+  }
+
+  @mixin icon-svg-icon-shirt(){
+    @extend .icon-shirt;
+  }
+
+
+.icon-svg.icon-shirt-alt {
+  &:before {
+      background-position: 0em -16.8em;
+      width: 3.2em;
+      height: 3.2em;
+    }
+  }
+
+  @mixin icon-svg-icon-shirt-alt(){
+    @extend .icon-shirt-alt;
+  }
+
+
+.icon-svg.icon-soccer-ball {
+  &:before {
+      background-position: 0em -20em;
+      width: 1.6em;
+      height: 1.6em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-ball(){
+    @extend .icon-soccer-ball;
+  }
+
+
+.icon-svg.icon-soccer-ball-missed-penalty {
+  &:before {
+      background-position: 0em -21.6em;
+      width: 1.8em;
+      height: 1.8em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-ball-missed-penalty(){
+    @extend .icon-soccer-ball-missed-penalty;
+  }
+
+
+.icon-svg.icon-soccer-ball-own-goal {
+  &:before {
+      background-position: 0em -23.4em;
+      width: 1.6em;
+      height: 1.6em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-ball-own-goal(){
+    @extend .icon-soccer-ball-own-goal;
+  }
+
+
+.icon-svg.icon-soccer-ball-penalty {
+  &:before {
+      background-position: 0em -25em;
+      width: 1.8em;
+      height: 1.8em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-ball-penalty(){
+    @extend .icon-soccer-ball-penalty;
+  }
+
+
+.icon-svg.icon-soccer-gate {
+  &:before {
+      background-position: 0em -26.8em;
+      width: 13em;
+      height: 12.2em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-gate(){
+    @extend .icon-soccer-gate;
+  }
+
+
+.icon-svg.icon-soccer-shoe {
+  &:before {
+      background-position: 0em -39em;
+      width: 2em;
+      height: 1.7em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-shoe(){
+    @extend .icon-soccer-shoe;
+  }
+
+
+.icon-svg.icon-soccer-shots {
+  &:before {
+      background-position: 0em -40.7em;
+      width: 1.4906000000000001em;
+      height: 1.638em;
+    }
+  }
+
+  @mixin icon-svg-icon-soccer-shots(){
+    @extend .icon-soccer-shots;
+  }
+
+
+.icon-svg.icon-stopwatch {
+  &:before {
+      background-position: 0em -42.4em;
+      width: 1.7em;
+      height: 1.9em;
+    }
+  }
+
+  @mixin icon-svg-icon-stopwatch(){
+    @extend .icon-stopwatch;
+  }
+
+
+.icon-svg.icon-substitution {
+  &:before {
+      background-position: 0em -44.3em;
+      width: 1.8em;
+      height: 1.7em;
+    }
+  }
+
+  @mixin icon-svg-icon-substitution(){
+    @extend .icon-substitution;
+  }
+
+
+.icon-svg.icon-trophy {
+  &:before {
+      background-position: 0em -46em;
+      width: 1.8em;
+      height: 1.9em;
+    }
+  }
+
+  @mixin icon-svg-icon-trophy(){
+    @extend .icon-trophy;
+  }
+
+
+.icon-svg.icon-whistle {
+  &:before {
+      background-position: 0em -47.9em;
+      width: 1.6em;
+      height: 1.7em;
+    }
+  }
+
+  @mixin icon-svg-icon-whistle(){
+    @extend .icon-whistle;
+  }
+
+
+.icon-svg.icon-yellow-card {
+  &:before {
+      background-position: 0em -49.6em;
+      width: 1.2em;
+      height: 1.6em;
+    }
+  }
+
+  @mixin icon-svg-icon-yellow-card(){
+    @extend .icon-yellow-card;
+  }
+
+
+
